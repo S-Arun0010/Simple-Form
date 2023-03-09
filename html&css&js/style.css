@@ -1,0 +1,62 @@
+h2
+{
+    
+    font-family: cursive;
+    font-style: oblique;
+}
+
+#field{
+ margin-top: 10px;
+ width:500px;
+}
+
+body{
+    margin:auto;
+    width : 90vw;
+    /* background-image:url(survey.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(235, 224, 224)101;
+}
+fieldset
+{
+    width:70vw;
+}
+.grid
+{
+   display:grid;
+   grid-template-rows: 1fr 1fr 1fr ; 
+   grid-template-columns:1fr 1fr ;
+   gap:10px;
+   row-gap: 20px;
+   width:70px;
+   height:150px;
+  
+}
+input
+{
+    background-color: #aca8a8;
+    border-color: #010101;
+    backface-visibility: hidden;
+}
+#table
+{   
+    width:75vw;
+    padding:2px;
+    border:5px solid;
+    border-style:ridge;
+}
+th
+{
+    background-color:  #aca8a8;
+    border: 2px solid;
+}
+td{
+    background-color:  #d4d3d3;
+    border: 1px solid;
+}
+button
+{
+    border-color: #010101;
+    background-color: #ebe8e8;
+}

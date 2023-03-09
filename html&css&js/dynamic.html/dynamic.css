@@ -1,0 +1,16 @@
+#table
+{   
+    width:75vw;
+    padding:2px;
+    border:5px solid;
+    border-style:ridge;
+}
+th
+{
+    background-color:  #aca8a8;
+    border: 2px solid;
+}
+td{
+    background-color:  #d4d3d3;
+    border: 1px solid;
+}

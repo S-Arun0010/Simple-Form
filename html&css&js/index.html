@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CURD_JS_Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+       <u> Survey</u>
+    </h2>
+     
+    <div id="field">
+
+        <form id="form">
+            <div class="grid">
+                <input type="text" id="name" name="name" placeholder="Anime Name">
+                <input type="text" id="typ" name="type" placeholder="series/moivie">
+                <input type="number" id="epi" name="Episode" placeholder="Episodes">
+                <input type="date" id="date" name="rating" placeholder="Release Date">
+                <input type="number" id="ra" name="rating" placeholder="Rating">
+                          
+            </div>
+            <br>                             
+            <button type="button" onclick="Submit()">Submit</button>
+            <button type="reset" >reset</button>   
+        </form> 
+        <div id="msg">
+        </div>
+           
+    <fieldset>
+        <legend>
+            <h2>Entries...</h2>
+        </legend>
+        
+        <table id="table">
+            <tr> 
+                <th >Name</th>
+                <th >Type</th>
+                <th >Episodes</th>
+                <th >Release Date</th>
+                <th >Rating</th>
+                <th >Action</th>
+            </tr>
+        </table>
+     </fieldset>
+   
+</body>
+<script src="script.js">
+</script>
+</html>
